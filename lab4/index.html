@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT GRADE SHEET</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header class="Header">
+    <h1>STUDENT GRADES MANAGEMENT</h1>
+   </header> 
+   <table>
+    <caption >Student Grade information </caption>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>GENDER</th>
+            <th>SEMESTER</th>
+            <th>GPA</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>1</td>
+          <td>ALI</td>
+          <td>21</td>
+          <td>M</td>
+          <td>6</td>
+          <td>3.6</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>AHMAD</td>
+            <td>21</td>
+            <td>M</td>
+            <td>6</td>
+            <td>3.5</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>AHSAN</td>
+            <td>21</td>
+            <td>M</td>
+            <td>6</td>
+            <td>3.4</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>FAHEEM</td>
+            <td>23</td>
+            <td>M</td>
+            <td>6</td>
+            <td>3.8</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Mujtaba</td>
+            <td>28</td>
+            <td>M</td>
+            <td>6</td>
+            <td>3.9</td>
+          </tr>
+    </tbody>
+   </table>
+   <form action="/register" method="post">
+    <h2>Student Registration form</h2>
+    <label for="id">Student ID:</label>
+    <input type="number" id="id" placeholder="select id" required>
+    <label for="name">Name:</label>
+    <input type="textarea" id="name"  placeholder="Username" required>
+    <label for="age">age:</label>
+    <input type="number" id="age"  placeholder="Enter Age" required>
+    <div class="gender">
+    <label for="Gender">Gender:</label>
+    <div class="male">
+    <input type="radio" id="male" name="gender" value="M" required>
+    <label for="Male">Male</label>
+</div>
+<div class="female">
+    <input type="radio" id="female" name="gender" value="F" required>
+    <label for="female">Female</label>
+</div>
+</div>
+    <label for="Semester">Semester:</label>
+    <input type="number" id="id" placeholder="Enter Semester" required>
+    <button type="submit" id="button" >Submit</button>
+   </form>
+   <section class="report">
+    <h3 id="reportheading">Report</h3>
+    <p>This webpage is designed to manage student academic data efficiently. It features a student gradesheet displayed in a table format and a student registration form for adding new records.</p>
+   </section>
+   <footer>
+    <p>© 2025 Muhammad Waleed. All Rights Reserved.</p>
+   </footer>
+</body>
+</html>
