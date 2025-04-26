@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Waleed</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-serif capitalize text-lg m-0 p-0">
+
+    <!-- Main Container -->
+    <div class="grid grid-cols-1 md:grid-cols-3 min-h-screen">
+
+        <!-- Top Navbar -->
+        <header class="flex justify-evenly items-center col-span-3 bg-red-900 text-white py-4 px-2">
+            <div class="flex items-center gap-8 md:gap-[400px]">
+                <img src="./foodlogo.jpg" alt="Logo" class="w-16 h-16 object-cover">
+                <h1 class="text-5xl md:text-[100px]">Food</h1>
+            </div>
+            <div class="hidden md:flex items-center">
+                <input type="search" placeholder="Search..." class="p-3 pr-12 rounded-full text-black" />
+            </div>
+        </header>
+
+        <!-- Menu Navbar -->
+        <nav class="flex justify-center items-center col-span-3 bg-cyan-700 h-24">
+            <ul class="flex gap-8 md:gap-20 list-none mt-4">
+                <li class="text-xl md:text-3xl rounded px-4 py-2 hover:bg-cyan-800 hover:text-white cursor-pointer">Home</li>
+                <li class="text-xl md:text-3xl rounded px-4 py-2 hover:bg-cyan-800 hover:text-white cursor-pointer">About</li>
+                <li class="text-xl md:text-3xl rounded px-4 py-2 hover:bg-cyan-800 hover:text-white cursor-pointer">Service</li>
+                <li class="text-xl md:text-3xl rounded px-4 py-2 hover:bg-cyan-800 hover:text-white cursor-pointer">Contact</li>
+            </ul>
+        </nav>
+
+        <!-- Left Sidebar - Categories -->
+        <aside class="bg-red-900 text-white m-6 p-8 rounded-lg border-2 border-red-700 w-full h-screen">
+            <h1 class="text-4xl mb-6 hover:bg-black p-2 rounded-lg text-center">Category</h1>
+            <div class="space-y-6">
+                <a href="#" class="block text-3xl hover:bg-black p-2 rounded-lg text-center">Likes</a>
+                <a href="#" class="block text-3xl hover:bg-black p-2 rounded-lg text-center">Delicious</a>
+                <a href="#" class="block text-3xl hover:bg-black p-2 rounded-lg text-center">Dislikes</a>
+            </div>
+        </aside>
+
+        <!-- Center Content - Main Section -->
+        <main class="m-6 col-span-1">
+            <section class="border-2 border-black rounded-lg bg-cyan-700 text-white w-full h-screen overflow-y-scroll p-6">
+
+                <!-- Likes Section -->
+                <div class="text-center">
+                    <h1 class="m-5 p-8 border-2 border-white rounded-2xl bg-cyan-700 text-xl">Likes Section</h1>
+                </div>
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
+                    <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="./burger.webp" alt="Burger" class="w-2/4 h-[300px] rounded-lg">
+                </div>
+
+                <!-- Delicious Section -->
+                <div class="text-center">
+                    <h1 class="m-5 p-8 border-2 border-white rounded-2xl bg-cyan-700 text-xl">Delicious Section</h1>
+                </div>
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
+                    <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="./delicious.avif" alt="Delicious" class="w-2/4 h-[300px] rounded-lg">
+                </div>
+
+                <!-- Dislikes Section -->
+                <div class="text-center">
+                    <h1 class="m-5 p-8 border-2 border-white rounded-2xl bg-cyan-700 text-xl">Dislikes Section</h1>
+                </div>
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
+                    <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="./kfc.png" alt="KFC" class="w-2/4 h-[300px] rounded-lg">
+                </div>
+
+            </section>
+        </main>
+
+        <!-- Right Sidebar - Profile Card -->
+        <aside class="bg-red-900 text-white  pr-8 rounded-lg border-2 border-green-700 w-full h-screen text-center">
+            <img src="./waleed.jpg" alt="Profile" class="w-1/2 rounded-full mx-auto mb-4">
+            <h2 class="text-2xl mb-2">Muhammad Waleed</h2>
+            <p>CS Student</p>
+            <p>QAU</p>
+            <hr class="my-4 border-white">
+            <p>5k Followers</p>
+        </aside>
+
+        <!-- Footer -->
+        <footer class="flex justify-center items-center col-span-3 bg-red-900 text-white p-6 mt-8">
+            <p>© 2025 All Rights Reserved</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

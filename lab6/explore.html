@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exploratory Mini Tasks</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-10 space-y-10">
+
+  <!-- 1. Using Flexbox -->
+  <section>
+    <h2 class="text-2xl font-bold mb-4">Flexbox - 3 Boxes</h2>
+    <div class="flex justify-center items-center gap-4">
+      <div class="w-24 h-24 bg-blue-400"></div>
+      <div class="w-24 h-24 bg-green-400"></div>
+      <div class="w-24 h-24 bg-red-400"></div>
+    </div>
+  </section>
+
+  <!-- 2. Grid Layout -->
+  <section>
+    <h2 class="text-2xl font-bold mb-4">Grid Layout - 6 Boxes</h2>
+    <div class="grid grid-cols-3 gap-4">
+      <div class="h-24 bg-purple-300"></div>
+      <div class="h-24 bg-purple-300"></div>
+      <div class="h-24 bg-purple-300"></div>
+      <div class="h-24 bg-purple-300"></div>
+      <div class="h-24 bg-purple-300"></div>
+      <div class="h-24 bg-purple-300"></div>
+    </div>
+  </section>
+
+  <!-- 3. Margin, Padding, Size Control -->
+  <section>
+    <h2 class="text-2xl font-bold mb-4">Margins, Padding and Size</h2>
+    <div class="w-48 h-48 p-6 px-10 m-6 mt-10 bg-yellow-300"></div>
+  </section>
+
+  <!-- 4. Text Styling -->
+  <section>
+    <h2 class="text-2xl font-bold mb-4">Styled Text</h2>
+    <p class="text-lg font-semibold text-blue-700 leading-relaxed">
+      This is a larger, slightly bold paragraph with custom color and increased line spacing.
+    </p>
+  </section>
+
+  <!-- 5. Background and Border -->
+  <section>
+    <h2 class="text-2xl font-bold mb-4">Box with Background and Border</h2>
+    <div class="w-64 h-40 bg-cover bg-center border-4 border-black rounded-lg" style="background-image: url('https://via.placeholder.com/300');"></div>
+  </section>
+
+  <!-- 6. Styled Table -->
+  <section>
+    <h2 class="text-2xl font-bold mb-4">Simple Table</h2>
+    <table class="table-auto border-collapse border border-gray-400 w-full">
+      <thead>
+        <tr>
+          <th class="border border-gray-400 p-2">Name</th>
+          <th class="border border-gray-400 p-2">Age</th>
+          <th class="border border-gray-400 p-2">City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border border-gray-400 p-2">Alice</td>
+          <td class="border border-gray-400 p-2">24</td>
+          <td class="border border-gray-400 p-2">New York</td>
+        </tr>
+        <tr>
+          <td class="border border-gray-400 p-2">Bob</td>
+          <td class="border border-gray-400 p-2">30</td>
+          <td class="border border-gray-400 p-2">Chicago</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 7. Hover Effect -->
+  <section>
+    <h2 class="text-2xl font-bold mb-4">Hover Button</h2>
+    <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+      Hover me
+    </button>
+  </section>
+
+  <!-- 8. Custom Values -->
+  <section>
+    <h2 class="text-2xl font-bold mb-4">Custom Width and Color</h2>
+    <div class="w-[350px] p-6" style="color: #ff5722; background-color: #f0f0f0;">
+      This box has custom width and text color.
+    </div>
+  </section>
+
+  <!-- 9. Combine Multiple Styles -->
+  <section>
+    <h2 class="text-2xl font-bold mb-4">Combined Styles</h2>
+    <div class="flex items-center justify-center w-64 h-32 bg-gray-200 hover:bg-gray-400 p-6 text-center">
+      Centered Text with Hover Background
+    </div>
+  </section>
+
+</body>
+</html>
